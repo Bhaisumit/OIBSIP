@@ -173,12 +173,18 @@ footer, #skill-container{
 }
 input{
     width:100%;
-  
-   margin: 0.3rem; 
+  font-size: 23px;
+   margin: 0.8rem; 
     padding:1.2rem 1rem;
-    
-    border-radius: 12px;
+    outline: none;
+   border-color: rgb(223, 96, 33);
+  border-radius: 10px;
+   
 
+}
+#submit button{
+    color:rgb(242, 242, 248);
+    background: rgb(22, 125, 235);
 }
 footer button{
  margin-top:2rem;
@@ -216,7 +222,7 @@ footer button{
     background-color: rgba(79, 228, 4, 0.421);
 }
 
-@media screen and (max-width:525px ) and (min-width:370px){
+@media screen and (max-width:525px ) and (min-width:350px){
    
    
     div#left{
